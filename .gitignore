@@ -1,0 +1,14 @@
+# Dependencies
+node_modules/
+
+# Secrets — never commit
+.env
+.env.*
+!.env.example
+
+# Build output
+dist/
+
+# OS / editor cruft
+.DS_Store
+*.log
