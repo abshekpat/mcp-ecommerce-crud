@@ -1,0 +1,12 @@
+{
+	"servers": {
+		"my-mcp-server-custom": {
+			"type": "stdio",
+			"command": "node",
+			"args": [
+				"${workspaceFolder}/dist/mcp/server.js"
+			]
+		}
+	},
+	"inputs": []
+}
