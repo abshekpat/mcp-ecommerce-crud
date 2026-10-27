@@ -2,9 +2,10 @@
 	"servers": {
 		"my-mcp-server-custom": {
 			"type": "stdio",
-			"command": "node",
+			"command": "npx",
 			"args": [
-				"${workspaceFolder}/dist/mcp/server.js"
+				"tsx",
+				"${workspaceFolder}/src/mcp/server.ts"
 			]
 		}
 	},
